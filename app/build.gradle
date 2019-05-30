@@ -1,13 +1,14 @@
-apply plugin: 'com.android.application'
-
+//apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
-
+group='com.github.casualv'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.mytools"
+//        applicationId "com.example.mytools"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
