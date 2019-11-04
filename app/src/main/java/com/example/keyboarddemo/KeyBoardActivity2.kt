@@ -1,26 +1,12 @@
-package com.example.mytools
+package com.example.keyboarddemo
 
-import android.content.Context
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.view.inputmethod.InputMethodManager
-import com.example.mytools.adapter.SimpleAdapter
+import com.example.keyboarddemo.adapter.SimpleAdapter
 import kotlinx.android.synthetic.main.activity_keyboard.*
-import android.R.attr.bottom
 import android.graphics.Rect
-import android.os.Build
-import android.support.annotation.RequiresApi
-import android.support.constraint.ConstraintLayout
-import android.support.v7.widget.LinearLayoutManager
-import android.util.Log
-import android.view.Gravity
 import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.view.ViewTreeObserver.OnGlobalLayoutListener
-import android.widget.FrameLayout
 import android.widget.LinearLayout
-import android.widget.TextView
 
 
 class KeyBoardActivity2 : AppCompatActivity() {

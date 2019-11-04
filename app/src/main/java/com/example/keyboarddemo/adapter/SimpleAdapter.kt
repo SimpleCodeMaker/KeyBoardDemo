@@ -1,8 +1,8 @@
-package com.example.mytools.adapter
+package com.example.keyboarddemo.adapter
 
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
-import com.example.mytools.R
+import com.example.keyboarddemo.R
 
 class SimpleAdapter:BaseQuickAdapter<String,BaseViewHolder>(R.layout.item_keyboard) {
     override fun convert(helper: BaseViewHolder?, item: String?) {

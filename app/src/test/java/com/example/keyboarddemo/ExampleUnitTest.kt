@@ -1,4 +1,4 @@
-package com.example.mytools
+package com.example.keyboarddemo
 
 import org.junit.Test
 

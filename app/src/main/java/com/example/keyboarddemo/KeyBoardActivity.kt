@@ -1,4 +1,4 @@
-package com.example.mytools
+package com.example.keyboarddemo
 
 import android.content.Context
 import android.graphics.Rect
@@ -13,7 +13,7 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import android.widget.FrameLayout
-import com.example.mytools.adapter.SimpleAdapter
+import com.example.keyboarddemo.adapter.SimpleAdapter
 import kotlinx.android.synthetic.main.activity_keyboard.*
 
 
@@ -91,6 +91,7 @@ class KeyBoardActivity : AppCompatActivity() {
                 Log.d("Keyboard", "item 到屏幕底部距离 ${1920-viewbottom}")
                 val inputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
                 inputMethodManager.toggleSoftInput(0, InputMethodManager.HIDE_NOT_ALWAYS);
+//                inputMethodManager.showSoftInput(view, InputMethodManager.HIDE_NOT_ALWAYS);
 
             }
         }

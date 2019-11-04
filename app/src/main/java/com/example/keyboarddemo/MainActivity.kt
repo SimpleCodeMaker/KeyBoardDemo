@@ -1,4 +1,4 @@
-package com.example.mytools
+package com.example.keyboarddemo
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
